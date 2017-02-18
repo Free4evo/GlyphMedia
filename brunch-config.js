@@ -11,5 +11,11 @@ exports.files = {
 
 exports.plugins = {
   babel: {presets: ['latest']},
-  postcss: {processors: [require('autoprefixer')]}
+  postcss: {
+    modules: true,
+    processors: [
+      require('autoprefixer')(['last 8 versions']),
+      require('csswring')()
+    ]
+  }
 };

@@ -12,12 +12,18 @@
   "dependencies": {},
   "devDependencies": {
     "auto-reload-brunch": "^2",
+    "autoprefixer": "^6.5.3",
     "babel-brunch": "~6.0",
     "babel-preset-latest": "^6",
     "brunch": "^2",
+    "csswring": "^5.1",
     "clean-css-brunch": "^2",
-    "uglify-js-brunch": "^2",
-    "postcss-brunch": "^2",
-    "autoprefixer": "^6"
+    "postcss-brunch": "^2.0",
+    "postcss-custom-properties": "^5.0.1",
+    "postcss-import": "^9.0.0",
+    "postcss-inline-svg": "^2.3.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-short-spacing": "^1.0.0",
+    "uglify-js-brunch": "^2"
   }
 }
