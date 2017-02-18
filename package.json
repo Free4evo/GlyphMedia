@@ -18,7 +18,7 @@
     "brunch": "^2",
     "csswring": "^5.1",
     "clean-css-brunch": "^2",
-    "postcss-brunch": "^2.0",
+    "postcss-brunch": "shvaikalesh/postcss-brunch",
     "postcss-custom-properties": "^5.0.1",
     "postcss-import": "^9.0.0",
     "postcss-inline-svg": "^2.3.0",
